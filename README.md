@@ -7,4 +7,4 @@
 # git config --global user.name "YOUR_USERNAME"
 # git config --global user.email "YOUR_EMAIL_ADDRESS@EXAMPLE.COM"
 
-# In vscode extenstions install the GitLens, connect to your github account, try commit and pull
+# In vscode extenstions install the GitLens, connect to your github account, try commit and push
