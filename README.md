@@ -19,3 +19,6 @@ make sure your vscode terminal is bash.\
 type `cd tutortitans` that means go to the tutortitans folder\
 type `npm start` to run.\
 that will open the website and see the React logo are turning.
+
+# test insert image
+![tutorLogo!](images/image.png)
