@@ -1,0 +1,317 @@
+.student-login-page {
+    background-color: #00000033;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.student-login-page .div {
+    background-color: var(--gray);
+    height: 1080px;
+    position: relative;
+    width: 1920px;
+}
+
+.student-login-page .overlap-group {
+    height: 610px;
+    left: 660px;
+    position: absolute;
+    top: 235px;
+    width: 537px;
+}
+
+.student-login-page .green-rectangle {
+    height: 610px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 300px;
+}
+
+.student-login-page .sign-in-box {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 31px;
+    box-shadow: 2px 24px 60px #241d6d24;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 32px;
+    left: 63px;
+    padding: 80px;
+    position: absolute;
+    top: 15px;
+}
+
+.student-login-page .div-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.student-login-page .frame {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+
+.student-login-page .text-wrapper {
+    color: var(--collection-1-black);
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    width: fit-content;
+}
+
+.student-login-page .frame-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.student-login-page .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+}
+
+.student-login-page .username-or-email-wrapper {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--collection-1-credential-outline);
+    border-radius: 4px 4px 0px 0px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 16px;
+    position: relative;
+    width: 314px;
+}
+
+.student-login-page .username-or-email {
+    color: var(--collection-1-black);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.student-login-page .div-wrapper {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--collection-1-credential-outline);
+    border-radius: 0px 0px 4px 4px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 16px;
+    position: relative;
+    width: 314px;
+}
+
+.student-login-page .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.student-login-page .sign-in-button {
+    align-items: center;
+    background-color: var(--green);
+    border-radius: 4px;
+    box-shadow: 0px 4px 9px #5f2bff30;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 16px;
+    position: relative;
+    width: 314px;
+}
+
+.student-login-page .text-wrapper-3 {
+    color: var(--ffffff);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.student-login-page .text-wrapper-4 {
+    color: var(--style);
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+}
+
+.student-login-page .frame-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 17px;
+    position: relative;
+}
+
+.student-login-page .frame-4 {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+    width: 314px;
+}
+
+.student-login-page .rectangle {
+    background-color: var(--collection-1-credential-outline);
+    flex: 1;
+    flex-grow: 1;
+    height: 1px;
+    position: relative;
+}
+
+.student-login-page .text-wrapper-5 {
+    color: #1c49e8;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.student-login-page .sign-up-buttons {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+    width: 314px;
+}
+
+.student-login-page .div-wrapper-2 {
+    align-items: center;
+    border: 1px solid;
+    border-color: var(--collection-1-credential-outline);
+    border-radius: 4px;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 10px;
+    justify-content: center;
+    padding: 16px;
+    position: relative;
+}
+
+.student-login-page .text-wrapper-6 {
+    color: var(--style);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.student-login-page .top-bar {
+    height: 74px;
+    left: 36px;
+    position: absolute;
+    top: 14px;
+    width: 1315px;
+}
+
+.student-login-page .back-logo {
+    height: 71px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 172px;
+}
+
+.student-login-page .logo {
+    height: 70px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 70px;
+}
+
+.student-login-page .back-button {
+    height: 48px;
+    left: 82px;
+    position: absolute;
+    top: 13px;
+    width: 48px;
+}
+
+.student-login-page .TUTOR-TITANS {
+    color: transparent;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 96px;
+    font-weight: 600;
+    height: 74px;
+    left: 537px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 776px;
+}
+
+.student-login-page .span {
+    color: #466346;
+}
+
+.student-login-page .text-wrapper-7 {
+    color: #424d65;
+}
+
+.student-login-page .text-wrapper-8 {
+    color: #e2e2e2;
+}
