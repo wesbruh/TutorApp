@@ -1,0 +1,12 @@
+.button {
+    background-color: var(--green);
+    color: var(--ffffff);
+    border: 1px solid var(--collection-1-credential-outline);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--collection-1-yellow);
+}

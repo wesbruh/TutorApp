@@ -1,0 +1,12 @@
+:root {
+    --collection-1-black: rgba(0, 0, 0, 1);
+    --collection-1-credential-outline: rgba(155, 179, 207, 1);
+    --collection-1-side-bar-button-color: rgba(98, 97, 143, 1);
+    --collection-1-unselected-dashboard-button: rgba(196, 196, 196, 1);
+    --collection-1-yellow: rgba(212, 203, 152, 1);
+    --ffffff: rgba(255, 255, 255, 1);
+    --gray: rgba(72, 73, 68, 1);
+    --green: rgba(70, 99, 70, 1);
+    --style: rgba(28, 73, 232, 1);
+    --yellow: var(--collection-1-yellow);
+}
