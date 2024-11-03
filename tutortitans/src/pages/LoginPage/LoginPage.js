@@ -7,6 +7,12 @@ import { Link } from 'react-router-dom';
 
 
 export const StudentLoginPage = () => {
+        // Add a function to handle the button click event
+        const handleSignIn = () => {
+            // Logic for handling sign-in can go here, such as form validation or redirecting
+            alert('Sign-in button clicked');
+        };
+    
     return (
         <div className="student-login-page">
             <div className="div">
@@ -28,14 +34,14 @@ export const StudentLoginPage = () => {
                                             <div className="username-or-email">JohnDoe@gmail.com</div>
                                         </div>
 
-                                        <div className="div-wrapper">
+                                        <div className="div-wrapper" >
                                             <div className="text-wrapper-2">********</div>
                                         </div>
                                     </div>
 
-                                    <div className="sign-in-button">
+                                    <button className="sign-in-button" onClick={handleSignIn}>
                                         <div className="text-wrapper-3">Sign in</div>
-                                    </div>
+                                    </button>
                                 </div>
                             </div>
 
@@ -57,7 +63,7 @@ export const StudentLoginPage = () => {
 
                             <div className="sign-up-buttons">
                                 <div className="div-wrapper-2">
-                                    <div className="text-wrapper-6">Student</div>
+                                    <div className="text-wrapper-6" onClick={handleSignIn}>Student</div>
                                 </div>
 
                                 <div className="div-wrapper-2">
@@ -70,9 +76,11 @@ export const StudentLoginPage = () => {
 
                 <div className="top-bar">
                     <div className="back-logo">
+                        
                         <img className="logo" alt="Logo" src={logo} />
-
+                        <Link to="/">
                         <img className="back-button" alt="Back button" src={backButton} />
+                        </Link>
                     </div>
 
                     <p className="TUTOR-TITANS">
