@@ -18,6 +18,8 @@ then put the message and close the message tab windows. after than, you can push
 make sure your vscode terminal is bash.\
 type `cd tutortitans` that means go to the tutortitans folder\
 type `npm start` to run.\
+
+ Failed to compile. Module not found: Can't resolve 'react-router-dom' do this commond `npm install react-router-dom --save`
 that will open the website and see the React logo are turning.
 
 # test insert image
