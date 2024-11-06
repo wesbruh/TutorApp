@@ -4,6 +4,8 @@ import greenRectangleDesign from "./assets/images/greenbox.png";
 import logo from "./assets/images/logo.svg";
 import "./style.css";
 import { Link } from 'react-router-dom';
+import GoBackButton from '../../components/GoBackButton.js';
+
 
 
 export const StudentLoginPage = () => {
@@ -31,11 +33,14 @@ export const StudentLoginPage = () => {
                                 <div className="frame-2">
                                     <div className="frame-3">
                                         <div className="username-or-email-wrapper">
-                                            <div className="username-or-email">JohnDoe@gmail.com</div>
+                                            {/*<div className="username-or-email">JohnDoe@gmail.com</div>*/}
+                                            <input class="input" />
                                         </div>
 
                                         <div className="div-wrapper" >
-                                            <div className="text-wrapper-2">********</div>
+                                            {/*<div className="text-wrapper-2">********</div>*/}
+                                            <input class="input" />
+
                                         </div>
                                     </div>
 
@@ -50,6 +55,7 @@ export const StudentLoginPage = () => {
 
                         <div className="frame-wrapper">
                             <div className="frame-4">
+                                
                                 <div className="rectangle" />
 
                                 <div className="text-wrapper-5">Tutor Login</div>
@@ -75,12 +81,17 @@ export const StudentLoginPage = () => {
                 </div>
 
                 <div className="top-bar">
+                    
                     <div className="back-logo">
                         
                         <img className="logo" alt="Logo" src={logo} />
+                        
                         <Link to="/">
+                        
                         <img className="back-button" alt="Back button" src={backButton} />
                         </Link>
+                        <GoBackButton /> {/* Add the Go Back button */}
+
                     </div>
 
                     <p className="TUTOR-TITANS">

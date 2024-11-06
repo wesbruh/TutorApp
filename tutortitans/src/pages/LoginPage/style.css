@@ -90,7 +90,7 @@
     position: relative;
 }
 
-.student-login-page .username-or-email-wrapper {
+.student-login-page .username-or-email-wrapper .input {
     align-items: flex-start;
     border: 1px solid;
     border-color: var(--collection-1-credential-outline);
@@ -116,7 +116,7 @@
     width: fit-content;
 }
 
-.student-login-page .div-wrapper {
+.student-login-page .div-wrapper .input {
     align-items: flex-start;
     border: 1px solid;
     border-color: var(--collection-1-credential-outline);
@@ -142,7 +142,7 @@
     width: fit-content;
 }
 
-.student-login-page .sign-in-button {
+.student-login-page .sign-in-button{
     align-items: center;
     background-color: var(--green);
     border-radius: 4px;
@@ -303,6 +303,7 @@
     white-space: nowrap;
     width: 776px;
 }
+
 
 .student-login-page .span {
     color: #466346;
